@@ -1,0 +1,22 @@
+{
+    "name": "avanza-plugin",
+    "version": "0.0.1",
+    "description": "Avanza plugin for JS trader",
+    "main": "",
+    "scripts": {
+        "test": "jest --config jest.config.json --coverage --maxWorkers=4",
+        "lint": "./node_modules/eslint-watch/bin/esw '**/*.js' -w"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^23.3.0",
+        "eslint": "^5.1.0",
+        "eslint-plugin-import": "^2.13.0",
+        "eslint-watch": "^4.0.1"
+    },
+    "dependencies": {
+        "js_trader_utils": "https://github.com/ausrasul/js_trader_utils",
+        "avanza": "https://github.com/ausrasul/avanza.git#dist"
+    }
+}

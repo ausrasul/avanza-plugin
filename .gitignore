@@ -1,0 +1,12 @@
+node_modules
+cred
+output
+coverage/
+.ssh/id_rsa.pub
+.ssh/id_rsa
+.ssh/known_hosts
+nohup.out
+push.conf
+**/**/*.swp
+tickfile.csv
+*.log
