@@ -1,5 +1,4 @@
-const AvanzaInst = require('../src/avanzaInst')
-//jest.mock('../src/avanza')
+const AvanzaInst = require('../lib/avanzaInst')
 const A = require('avanza')
 
 test('instantiates avanza', () => {

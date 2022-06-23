@@ -1,7 +1,7 @@
-var broker = require('../src/avanzaWrapper')
-const AvanzaInst = require('../src/avanzaInst')
+var broker = require('../lib/index')
+const AvanzaInst = require('../lib/avanzaInst')
 jest.mock('js_trader_utils')
-jest.mock('../src/avanzaInst')
+jest.mock('../lib/avanzaInst')
 
 describe('Avanza wrapper instantiation', () => {
 	test('instantiates wrapper', () => {
