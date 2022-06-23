@@ -10,10 +10,10 @@
     "author": "",
     "license": "MIT",
     "devDependencies": {
-        "jest": "^23.3.0",
-        "eslint": "^5.1.0",
-        "eslint-plugin-import": "^2.13.0",
-        "eslint-watch": "^4.0.1"
+        "jest": "^28.1.0",
+        "eslint": "^8.17.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-watch": "^8.0.0"
     },
     "dependencies": {
         "js_trader_utils": "https://github.com/ausrasul/js_trader_utils",
